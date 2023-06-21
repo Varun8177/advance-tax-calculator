@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20;
+    /* border: 1px solid red; */
+    padding: 1rem;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.LinkContainer>a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.LinkContainer {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+@media screen and (max-width:680px) {
+    .container>img {
+        margin: auto;
+        height: 100px;
+        width: 120px;
+        margin-bottom: 20px;
+    }
+}
